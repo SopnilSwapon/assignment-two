@@ -2,7 +2,7 @@
 /* small devices */
 
 @media screen and (max-width: 576px) {
-    nav, nav ul, .place-select{
+    nav, nav ul, .place-select, .popular-tour-section {
         flex-direction: column;
     }
     
@@ -15,7 +15,7 @@
         margin-left: 40px;
     }
     .banner-title{
-        padding: 0px;
+        padding: 5px;
         margin: 0px;
         font-weight: 400px;
         font-size: 50px;
@@ -23,10 +23,12 @@
     .place-select{
         padding: 0px;
         margin: 0px auto;
-        gap: 5px;
-        padding: 10px 0px;
+        gap: 10px;
         width: 50%;
 
+    }
+    .popular-tour-section img{
+        width: 100%;
     }
     
 }
