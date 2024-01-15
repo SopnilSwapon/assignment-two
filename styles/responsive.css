@@ -30,5 +30,31 @@
     .popular-tour-section img{
         width: 100%;
     }
+    .destinations{
+        display: grid;
+        gap: 30px;
+        grid-template-areas: 
+         "maldives"
+        "indonesia"
+        "srilanka"
+        "north-america"
+        "kashmir";
+        
+    }
+    .more-destinations{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .destinations div, .more-destinations div {
+        color: #FFF;
+        font-size: 28px;
+        height: 200px;
+        width: 90%; 
+        margin: 0px auto;
+    }
+    .tour-destination-section{
+        margin-top: 500px;
+    }
     
 }
