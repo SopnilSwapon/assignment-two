@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shared styles */
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+
+/* header section styles */
+header {
+    max-width: 1050px;
+    margin: 30px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-quality {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 800px;
+}
+
+.speacial {
+    color: #FF5400;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home-bar {
+    color: #FF5400;
+}
+
+/* Banner section styles */
+
+.banner-section {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png") no-repeat;
+    height: 500px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+.place-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 20px;
+
+}
+
+.place-select input {
+    justify-content: center;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.place-select .search-bar{
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFF;
+}
