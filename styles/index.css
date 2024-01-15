@@ -27,6 +27,9 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+.menubar{
+    display: none;
+}
 
 .tour-quality {
     display: flex;
@@ -49,7 +52,7 @@ nav li {
 
 }
 
-li a {
+li a{
     text-decoration: none;
     color: #424247;
     text-align: center;
@@ -72,15 +75,19 @@ li a {
     color: #FFF;
     font-size: 64px;
     text-align: center;
-    font-weight: 800;
+    font-weight: 800px;
     padding-top: 80px;
 }
 
 .place-select {
     display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
+    padding: 20px 0px;
+    width: 90%;
+    margin: 40px auto;
     gap: 20px;
 
 }
@@ -94,7 +101,8 @@ li a {
     padding: 20px;
     text-align: center;
 }
-.place-select .search-bar{
+
+.place-select .search-bar {
     border-radius: 8px;
     background-color: #FF5400;
     color: #FFF;
