@@ -353,7 +353,6 @@ li a{
 /* footer sections styles */
 
 .footer-section{
-    display: none;
     background: rgba(19, 19, 24, 0.05);
 }
 .footer-title{
