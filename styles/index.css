@@ -6,6 +6,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 400px;
     font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    max-width: 1040px;
+    margin: 60px auto;
 }
 
 .description {
@@ -59,12 +66,13 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 40px;
+    justify-content: space-evenly;
+
 }
 
 nav li {
     list-style: none;
-
+    
 }
 
 li a {
@@ -72,6 +80,9 @@ li a {
     color: #424247;
     text-align: center;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
 }
 
 .home-bar {
@@ -83,7 +94,9 @@ li a {
 .banner-section {
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png") no-repeat;
-    height: 500px;
+    background-size: cover;
+    padding-bottom: 16px;
+    background-position: center;
 }
 
 .banner-description {
@@ -101,15 +114,15 @@ li a {
 }
 
 .place-select {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     align-items: center;
     justify-content: center;
-    padding: 20px 0px;
-    width: 90%;
-    margin: 40px auto;
-    gap: 20px;
+    padding: 20px 20px;
+    margin: 40px;
+    gap: 1.5rem;
 
 }
 
@@ -131,24 +144,23 @@ li a {
 
 /* Popular sections tours styles */
 
-main {
-    max-width: 1040px;
-    margin: 60px auto;
-}
-
 .popular-tour-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    height: 550px;
     padding: 10px;
     margin-bottom: 0px;
+    width: 100%;
+}
+.popular-content{
+    width: 100%;
+}
+.popular-tour-section img{
+    width: 100%;
 }
 
 /* Tour Destination section styles */
-
-.tour-destination-section {
-    margin-top: 100px;
-}
 
 .destinations div,
 .more-destinations div {
@@ -168,17 +180,14 @@ main {
 .maldives {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 5.png"), lightgray 50% repeat no-repeat;
     background-repeat: no-repeat;
-    /* width: 50%; */
 }
 
 .indonesia {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 8.png"), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
-    /* background-repeat: no-repeat; */
 }
 
 .srilanka {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
-    /* background-repeat: no-repeat; */
 }
 
 .north-america {
@@ -251,14 +260,13 @@ main {
 
 .our-quality {
     display: flex;
-    height: 350px;
     gap: 25px;
 }
 
-.our-quality img, .another-quality img {
+.our-quality img,
+.another-quality img {
     width: 10%;
 }
-
 
 .hotel {
     border-radius: 16px;
@@ -289,4 +297,55 @@ main {
     padding: 30px 10px;
     width: 50%;
     margin: 24px auto;
+}
+
+/* Newsletter section styles */
+.newsletter-section {
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    width: 45%;
+    padding: 25px;
+
+}
+
+.content input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 95%;
+    height: 10%;
+    border: 0px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.content input[type="submit"] {
+    background-color: #FF5400;
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+
+.discount-btn {
+    border-radius: 16px;
+    background: #FF5400;
+    border: 0px;
+    width: 37%;
+    height: 22%;
+    color: white;
+    position: relative;
+    transform: rotate(-45deg);
+    top: -36%;
+    left: 63%;
+}
+
+
+
+.content-img img {
+    width: 100%;
+    height: 100%;
 }

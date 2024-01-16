@@ -2,17 +2,29 @@
 /* small devices */
 
 @media screen and (max-width: 576px) {
-    nav, nav ul, .place-select, .popular-tour-section, .our-quality{
+     nav,
+     nav ul,
+     .place-select,
+     .popular-tour-section,
+     .our-quality,
+     .newsletter-section{
         flex-direction: column;
+    }
+    .place-select{
+        grid-template-columns: auto;
     }
     
     .nav-list{
         display: none;
     }
+    .banner-section{
+        height: auto;
+        background-size: cover;
+        padding-bottom: 16px;
+    }
     .menubar{
         display: inline;
         margin-top: 5px;
-        margin-left: 40px;
     }
     .banner-title{
         padding: 5px;
@@ -53,12 +65,40 @@
         width: 90%; 
         margin: 0px auto;
     }
-    .tour-destination-section{
-        margin-top: 500px;
-    }
     
     .another-quality{
         width: 95%;
-        margin-top: 330px;
     }
+    .content, .content input{
+        width: 88%;
+        margin: 10 auto;
+        padding: 10px 20px;
+    }
+    .content input[type="submit"]{
+        width: 100%;
+        margin: 10 auto;
+        padding: 10px 20px;
+
+    }
+    .our-quality{
+        height: auto;
+    }
+    .map{
+        width: 100%;
+        margin-top: 0px;
+        padding: 0px 10px;
+    }
+    .discount-btn {
+        top: -130px;
+
+}
+}
+
+/* responsive for tablet */
+
+@media screen and (min-width: 576px) and (max-width: 1001px) {
+    .place-select{
+        grid-template-columns: auto auto;
+    }
+    
 }
