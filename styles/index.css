@@ -349,3 +349,32 @@ li a {
     width: 100%;
     height: 100%;
 }
+
+/* footer sections styles */
+
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    gap: 1.5rem;    
+}
+.footer-description{
+    padding: 0rem 5rem;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer-line{
+    margin: 3rem 6rem;
+}
+.copyright-info{
+    text-align: center;
+    padding: 0rem 6rem 2rem 6rem;
+}

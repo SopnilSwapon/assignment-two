@@ -96,7 +96,7 @@
 
 /* responsive for tablet */
 
-@media screen and (min-width: 576px) and (max-width: 1001px) {
+@media screen and (min-width: 577px) and (max-width: 1001px) {
     .place-select{
         grid-template-columns: auto auto;
     }
