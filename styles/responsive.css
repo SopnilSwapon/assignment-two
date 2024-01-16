@@ -53,6 +53,9 @@
         "kashmir";
         
     }
+    main, header{
+        width: 370px;
+    }
     .more-destinations{
         display: grid;
         grid-template-columns: 1fr;
@@ -89,7 +92,7 @@
         padding: 0px 10px;
     }
     .discount-btn {
-        top: -135px;
+        top: -139px;
         left: 60%;
 
 }
