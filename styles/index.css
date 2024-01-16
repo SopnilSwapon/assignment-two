@@ -146,11 +146,12 @@ main {
 
 /* Tour Destination section styles */
 
-.tour-destination-section{
+.tour-destination-section {
     margin-top: 100px;
 }
 
-.destinations div, .more-destinations div {
+.destinations div,
+.more-destinations div {
     color: #FFF;
     font-size: 28px;
     height: 250px;
@@ -184,56 +185,108 @@ main {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
 }
-.kashmir{
+
+.kashmir {
     border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
-background-size: 100%;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    background-size: 100%;
 
 }
-.kashmir img{
+
+.kashmir img {
     width: 100%;
 }
-.bangladesh{
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+
+.bangladesh {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
 }
 
-.bandarban{
+.bandarban {
     border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
-background-size: 100%;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+    background-size: 100%;
 }
 
 /* ..... */
 
-.kashmir{
+.kashmir {
     grid-area: kashmir;
 }
-.north-america{
+
+.north-america {
     grid-area: north-america;
 }
-.maldives{
+
+.maldives {
     grid-area: maldives;
 }
-.indonesia{
+
+.indonesia {
     grid-area: indonesia;
 }
-.srilanka{
+
+.srilanka {
     grid-area: srilanka;
 }
 
-.destinations{
+.destinations {
     display: grid;
     gap: 30px;
-    grid-template-areas: 
-     
-    "indonesia     indonesia     maldives        maldives"
-    "kashmir      north-america   north-america   srilanka";
-    
+    grid-template-areas:
+
+        "indonesia     indonesia     maldives        maldives"
+        "kashmir      north-america   north-america   srilanka";
+
 }
-.more-destinations{
+
+.more-destinations {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 30px;
     gap: 30px;
     margin-bottom: 20px;
+}
+
+/* <!-- Why choose us section styles --> */
+
+.our-quality {
+    display: flex;
+    height: 350px;
+    gap: 25px;
+}
+
+.our-quality img, .another-quality img {
+    width: 10%;
+}
+
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+
+.quality-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+
+.another-quality {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px 10px;
+    width: 50%;
+    margin: 24px auto;
 }
