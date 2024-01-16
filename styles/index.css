@@ -25,7 +25,7 @@ main {
     border-radius: 8px;
     background: #FF5400;
     padding: 10px 20px;
-    width: 20%;
+    width: 25%;
     color: #FFF;
 }
 
@@ -123,10 +123,11 @@ li a{
     padding: 20px 20px;
     margin: 40px;
     gap: 1.5rem;
+    color: #FFF;;
 
 }
 
-.place-select input {
+.place-select input, .place-select select, .place-select button{
     justify-content: center;
     border-radius: 8px;
     background: #FFF;
@@ -136,7 +137,7 @@ li a{
     text-align: center;
 }
 
-.place-select .search-bar {
+.place-select button {
     border-radius: 8px;
     background-color: #FF5400;
     color: #FFF;
