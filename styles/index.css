@@ -256,6 +256,41 @@ li a{
     margin-bottom: 20px;
 }
 
+/* My next Tour destination section styles */
+.my-next-tour-destinations img{
+  width: 50%;
+  width: 50%;
+}
+.my-tour-description, .my-tour-title{
+    text-align: center;
+    padding: 0rem 3rem;
+    font-weight: bolder;
+}
+.place-title{
+    text-align: center;
+    color: gray;
+}
+
+.rangamati-pic{
+    display: flex;
+    width: 100%;
+    gap: 1.3rem;
+}
+.sajek-vally-pic{
+display: flex;
+width: 64%;
+gap: 1.3rem;
+}
+.sylhet-pic{
+
+    display: flex;
+    display: none;
+    height: 300px;
+    gap: 1.3rem;
+}
+
+
+
 /* <!-- Why choose us section styles --> */
 
 .our-quality {

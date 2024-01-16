@@ -7,7 +7,10 @@
      .place-select,
      .popular-tour-section,
      .our-quality,
-     .newsletter-section{
+     .newsletter-section,
+     .rangamati-pic,
+     .sajek-vally-pic,
+     .sylhet-pic{
         flex-direction: column;
     }
     .place-select{
@@ -67,6 +70,15 @@
         height: 200px;
         width: 90%; 
         margin: 0px auto;
+    }
+    .rangamati-pic img{
+        width: 100%;
+    }
+    .sajek-vally-pic img{
+        width: 150%;
+    }
+    .my-tour-description{
+        padding: 0rem 1.2rem;
     }
     
     .another-quality{
