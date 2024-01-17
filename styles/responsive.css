@@ -10,7 +10,8 @@
      .newsletter-section,
      .rangamati-pic,
      .sajek-vally-pic,
-     .sylhet-pic{
+     .sylhet-pic,
+     .perfect-place{
         flex-direction: column;
     }
     .place-select{
@@ -80,6 +81,20 @@
     .my-tour-description{
         padding: 0rem 1.2rem;
     }
+    .discount-info{
+        left: 4rem;
+        top: 1.1rem;
+    }
+    .discount-info > h1{
+        white-space: nowrap;
+        font-size: 18px;
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .discount-second-img > .discount-info{
+     left: -4rem;
+    }
     
     .another-quality{
         width: 95%;
@@ -99,7 +114,7 @@
         height: auto;
     }
     .map{
-        width: 100%;
+        width: 95%;
         margin-top: 0px;
         padding: 0px 10px;
     }
@@ -107,6 +122,12 @@
         top: -139px;
         left: 60%;
 
+}
+.footer-title{
+    padding-top: 1.1rem;
+}
+.footer-description{
+    padding: 0rem 1.2rem;
 }
 }
 

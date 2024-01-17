@@ -25,8 +25,9 @@ main {
     border-radius: 8px;
     background: #FF5400;
     padding: 10px 20px;
-    width: 25%;
+    width: 6.5rem;
     color: #FFF;
+    border: none;
 }
 
 .section-title {
@@ -72,10 +73,10 @@ nav ul {
 
 nav li {
     list-style: none;
-    
+
 }
 
-li a{
+li a {
     text-decoration: none;
     color: #424247;
     text-align: center;
@@ -123,11 +124,14 @@ li a{
     padding: 20px 20px;
     margin: 40px;
     gap: 1.5rem;
-    color: #FFF;;
+    color: #FFF;
+    ;
 
 }
 
-.place-select input, .place-select select, .place-select button{
+.place-select input,
+.place-select select,
+.place-select button {
     justify-content: center;
     border-radius: 8px;
     background: #FFF;
@@ -154,10 +158,12 @@ li a{
     margin-bottom: 0px;
     width: 100%;
 }
-.popular-content{
+
+.popular-content {
     width: 100%;
 }
-.popular-tour-section img{
+
+.popular-tour-section img {
     width: 100%;
 }
 
@@ -217,8 +223,6 @@ li a{
     background-size: 100%;
 }
 
-/* ..... */
-
 .kashmir {
     grid-area: kashmir;
 }
@@ -258,38 +262,42 @@ li a{
 }
 
 /* My next Tour destination section styles */
-.my-next-tour-destinations img{
-  width: 50%;
-  width: 50%;
+.my-next-tour-destinations img {
+    width: 50%;
+    width: 50%;
 }
-.my-tour-description, .my-tour-title{
+
+.my-tour-description,
+.my-tour-title {
     text-align: center;
     padding: 0rem 3rem;
     font-weight: bolder;
 }
-.place-title{
+
+.place-title {
     text-align: center;
     color: gray;
 }
 
-.rangamati-pic{
+.rangamati-pic {
     display: flex;
     width: 100%;
     gap: 1.3rem;
 }
-.sajek-vally-pic{
-display: flex;
-width: 64%;
-gap: 1.3rem;
+
+.sajek-vally-pic {
+    display: flex;
+    width: 64%;
+    gap: 1.3rem;
 }
-.sylhet-pic{
+
+.sylhet-pic {
 
     display: flex;
     display: none;
     height: 300px;
     gap: 1.3rem;
 }
-
 
 
 /* <!-- Why choose us section styles --> */
@@ -335,8 +343,76 @@ gap: 1.3rem;
     margin: 24px auto;
 }
 
+/* deal & discount sections styles */
+
+.discount-img {
+    height: 500px;
+    margin-bottom: 2rem;
+    border-radius: 16px;
+    background: url("../Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
+}
+
+.discount-info span {
+    margin-right: 1.5rem;
+}
+
+.color {
+    color: red;
+}
+
+.discount-info {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 1.1rem;
+    width: 45%;
+    margin: 0px auto;
+    position: relative;
+    top: 4rem;
+    left: 14.5rem;
+}
+
+.discount-second-img {
+    border-radius: 16px;
+    background: url("../Images/Group\ 40.png"), lightgray 50% / cover no-repeat;
+    height: 500px;
+    margin-bottom: 2rem;
+    border-radius: 16px;
+}
+
+.discount-second-img>.discount-info {
+    left: -13rem;
+}
+
+.packages-btn {
+    width: 50px;
+    margin: 0px auto;
+    border: 0px;
+}
+
+/* perfect place styles */
+
+.perfect-place {
+    margin-top: 50px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.perfect-place img {
+    width: 100%;
+    
+}
+
+.perfect-place>ul {
+    color: #0c0c0c;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 /* Newsletter section styles */
 .newsletter-section {
+    margin-top: 80px;
     display: flex;
     gap: 20px;
 }
@@ -388,29 +464,34 @@ gap: 1.3rem;
 
 /* footer sections styles */
 
-.footer-section{
+.footer-section {
     background: rgba(19, 19, 24, 0.05);
 }
-.footer-title{
+
+.footer-title {
     display: flex;
     justify-content: center;
     padding-top: 6rem;
-    gap: 1.5rem;    
+    gap: 1.5rem;
 }
-.footer-description{
+
+.footer-description {
     padding: 0rem 5rem;
     text-align: center;
 }
-.social-media{
+
+.social-media {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
-.footer-line{
+
+.footer-line {
     margin: 3rem 6rem;
 }
-.copyright-info{
+
+.copyright-info {
     text-align: center;
     padding: 0rem 6rem 2rem 6rem;
     /* margin-bottom: 1.5rem; */
