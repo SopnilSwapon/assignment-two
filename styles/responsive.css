@@ -15,6 +15,8 @@
         flex-direction: column;
     }
     .place-select{
+        /* border: 2px solid red; */
+        
         grid-template-columns: auto;
     }
     
@@ -37,7 +39,7 @@
         font-size: 50px;
     }
     .place-select{
-        padding: 0px;
+        padding: 40px;
         margin: 0px auto;
         gap: 10px;
         width: 50%;
@@ -119,8 +121,8 @@
         padding: 0px 10px;
     }
     .discount-btn {
-        top: -139px;
-        left: 60%;
+        top: -145px;
+        left: 59%;
 
 }
 .footer-title{
